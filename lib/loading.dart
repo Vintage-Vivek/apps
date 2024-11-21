@@ -2,17 +2,13 @@ import 'package:flutter/material.dart';
 
 
 class LoadingDialog extends StatelessWidget {
-    const LoadingDialog({super.key, this.message});
+    const LoadingDialog({this.message, super.key});
 
     final String? message;
-
-
 
     @override
 
     Widget build(BuildContext context) {
-
-
     return AlertDialog(
         key: key,
         contentPadding: EdgeInsets.zero,
